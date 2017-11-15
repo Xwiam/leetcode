@@ -49,7 +49,8 @@ public class AddTwoNumbers {
         ListNode l2 = new ListNode(2);
         ListNode b1 = new ListNode(7);
         ListNode b2 = new ListNode(7);
-        l2.add(b1).add(b2);
+        l2.add(b1);
+	l2.add(b2);
         ListNode ll;
         ll = AddTwoNumbers.addTwoNumbers(l1, l2);
         while (ll.hasNext()) {
