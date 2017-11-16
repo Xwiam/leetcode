@@ -20,9 +20,6 @@ public class ListNode {
     }
 
     public boolean hasNext() {
-        if (next != null) {
-            return true;
-        }
-        return false;
+        return next != null; 
     }
 }
